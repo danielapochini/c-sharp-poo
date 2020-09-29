@@ -15,6 +15,15 @@ namespace Variaveis
             Maxima = 30
         }
 
+        // definir tipos de dados personalizados
+        // sem o public não é vísivel para acesso
+        struct Pessoa
+        {
+            public string nome;
+            public int idade;
+            public double altura;
+        }
+
         static void Main(string[] args)
         {
             #region Numericas Integrais
@@ -88,10 +97,32 @@ namespace Variaveis
             #endregion
 
             #region Enumeração
-            Notas notasAlunos = Notas.Media;
+            //Notas notasAlunos = Notas.Media;
             #endregion
 
+            Pessoa p1 = new Pessoa(); //inicializando uma estrutura
+            p1.altura = 1.75;
+            p1.idade = 26;
+            p1.nome = "Daniela";
+
+            Pessoa p2 = new Pessoa()
+            {
+                altura = 1.65,
+                idade = 25,
+                nome = "Pessoa"
+            };
+
+            p2.nome = "Teste";
+
+            Console.WriteLine(p1.nome);
+            Console.WriteLine(p1.idade);
+            Console.WriteLine(p1.altura);
+
             Console.WriteLine();
+
+            Console.WriteLine(p2.nome);
+            Console.WriteLine(p2.idade);
+            Console.WriteLine(p2.altura);
             Console.ReadKey();
         }
     }
