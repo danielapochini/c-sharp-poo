@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColecaoArray", "ColecaoArra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicarMatrizes", "MultiplicarMatrizes\MultiplicarMatrizes.csproj", "{A363438E-C7F7-47E2-B66F-8A537554ACA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturasCondicionais", "EstruturasCondicionais\EstruturasCondicionais.csproj", "{4EB1654C-4528-408A-B7A6-174E00254A38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{A363438E-C7F7-47E2-B66F-8A537554ACA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A363438E-C7F7-47E2-B66F-8A537554ACA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A363438E-C7F7-47E2-B66F-8A537554ACA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB1654C-4528-408A-B7A6-174E00254A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB1654C-4528-408A-B7A6-174E00254A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB1654C-4528-408A-B7A6-174E00254A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB1654C-4528-408A-B7A6-174E00254A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{CB9CF9EE-2C6F-4F02-B58C-433EC56E5C8D} = {3B02EDAE-2CE0-4570-9669-60EABE12A34D}
 		{225C17AC-60F7-4B3A-B465-2B499FF4D6C5} = {3B02EDAE-2CE0-4570-9669-60EABE12A34D}
 		{A363438E-C7F7-47E2-B66F-8A537554ACA3} = {3B02EDAE-2CE0-4570-9669-60EABE12A34D}
+		{4EB1654C-4528-408A-B7A6-174E00254A38} = {3B02EDAE-2CE0-4570-9669-60EABE12A34D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACFE1B72-35E7-434D-A313-F31852C58DB7}
