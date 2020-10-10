@@ -72,6 +72,31 @@ namespace EstruturasCondicionais
             */
             #endregion
 
+            #region Operador Ternário
+
+            int numero = 3;
+            //string mensagem = numero > 5 ? "Maior que 5" : "Menor que 5";
+
+
+            /*if (numero > 5)
+            {
+                mensagem = "Maior que 5";
+            }
+            else
+            {
+                mensagem = "Menor que 5";
+            }*/
+
+
+            // operador ternario:
+            // condição ? true : false
+
+
+
+            Console.WriteLine(numero > 5 ? "Maior que 5" : "Menor que 5");
+            Console.ReadKey();
+            #endregion
+
         }
     }
 }
