@@ -20,6 +20,8 @@ namespace EstruturasRepeticao
             */
             #endregion
 
+            #region Ciclo Do - While
+            /*
             int valor = 15;
             do
             {
@@ -27,6 +29,16 @@ namespace EstruturasRepeticao
                 valor++;
             } while (valor < 10);
             //irá imprimir o valor, depois irá verificar que a condição é falsa e não entrará no laço de repetição
+            Console.ReadKey();
+            */
+            #endregion
+
+            //irá executar enquanto o i for menor que 10
+            for (int i = 0, j = 10; i < 10; i++, j--)
+            {
+                Console.WriteLine("I = " + i + " | J = " +j);
+            }
+
             Console.ReadKey();
         }
     }
