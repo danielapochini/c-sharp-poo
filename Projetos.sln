@@ -15,15 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conversao", "Conversao\Conv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operadores", "Operadores\Operadores.csproj", "{89ADA513-7E33-45E4-9E04-542F153B306C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoTemperaturas", "ConversaoTemperaturas\ConversaoTemperaturas.csproj", "{CB9CF9EE-2C6F-4F02-B58C-433EC56E5C8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversaoTemperaturas", "ConversaoTemperaturas\ConversaoTemperaturas.csproj", "{CB9CF9EE-2C6F-4F02-B58C-433EC56E5C8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColecaoArray", "ColecaoArray\ColecaoArray.csproj", "{225C17AC-60F7-4B3A-B465-2B499FF4D6C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColecaoArray", "ColecaoArray\ColecaoArray.csproj", "{225C17AC-60F7-4B3A-B465-2B499FF4D6C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicarMatrizes", "MultiplicarMatrizes\MultiplicarMatrizes.csproj", "{A363438E-C7F7-47E2-B66F-8A537554ACA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicarMatrizes", "MultiplicarMatrizes\MultiplicarMatrizes.csproj", "{A363438E-C7F7-47E2-B66F-8A537554ACA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturasCondicionais", "EstruturasCondicionais\EstruturasCondicionais.csproj", "{4EB1654C-4528-408A-B7A6-174E00254A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturasCondicionais", "EstruturasCondicionais\EstruturasCondicionais.csproj", "{4EB1654C-4528-408A-B7A6-174E00254A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularIMC", "CalcularIMC\CalcularIMC.csproj", "{F20ECAD1-BDCB-456B-A02F-6DF4CFF85ED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcularIMC", "CalcularIMC\CalcularIMC.csproj", "{F20ECAD1-BDCB-456B-A02F-6DF4CFF85ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturasControle", "EstruturasControle\EstruturasControle.csproj", "{AAE233C1-327E-4023-A448-AE2EC6F86FBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{F20ECAD1-BDCB-456B-A02F-6DF4CFF85ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F20ECAD1-BDCB-456B-A02F-6DF4CFF85ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F20ECAD1-BDCB-456B-A02F-6DF4CFF85ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE233C1-327E-4023-A448-AE2EC6F86FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE233C1-327E-4023-A448-AE2EC6F86FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE233C1-327E-4023-A448-AE2EC6F86FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE233C1-327E-4023-A448-AE2EC6F86FBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{A363438E-C7F7-47E2-B66F-8A537554ACA3} = {3B02EDAE-2CE0-4570-9669-60EABE12A34D}
 		{4EB1654C-4528-408A-B7A6-174E00254A38} = {3B02EDAE-2CE0-4570-9669-60EABE12A34D}
 		{F20ECAD1-BDCB-456B-A02F-6DF4CFF85ED4} = {3B02EDAE-2CE0-4570-9669-60EABE12A34D}
+		{AAE233C1-327E-4023-A448-AE2EC6F86FBE} = {3B02EDAE-2CE0-4570-9669-60EABE12A34D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACFE1B72-35E7-434D-A313-F31852C58DB7}
