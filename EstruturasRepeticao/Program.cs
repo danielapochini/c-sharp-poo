@@ -33,6 +33,8 @@ namespace EstruturasRepeticao
             */
             #endregion
 
+            #region Ciclo For
+            /*
             //irá executar enquanto o i for menor que 10
             for (int i = 0, j = 10; i < 10; i++, j--)
             {
@@ -40,6 +42,17 @@ namespace EstruturasRepeticao
             }
 
             Console.ReadKey();
+            */
+            #endregion
+
+            #region Ciclo ForEach
+            string[] nomes = { "Teste00", "Teste01", "Teste02", "Teste03" };
+
+            foreach (string nome in nomes)
+            {
+                Console.WriteLine("O nome é: " + nome);
+            }
+            #endregion
         }
     }
 }
