@@ -23,5 +23,19 @@ namespace POO_MetodosClasses
         {
             Console.WriteLine("Meu nome é " + nome + " e tenho " + idade + " anos");
         }
+
+        // Passgem de parâmetros por valor
+        public void AumentarValor(int valor)
+        {
+            valor += 10;
+            Console.WriteLine("O valor final (por valor) é: " + valor);
+        }
+
+        // Passagem de parâmetros por referência
+        public void AumentarRef(ref int valor)
+        {
+            valor += 10;
+            Console.WriteLine("O valor final (por referência) é: " + valor);
+        }
     }
 }
