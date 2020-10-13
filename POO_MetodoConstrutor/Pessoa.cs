@@ -18,5 +18,26 @@ namespace POO_MetodoConstrutor
             anoNascimento = 0;
             idade = 0;
         }
+
+        public Pessoa(string nome, string sobrenome, int anoNascimento)
+        {
+            this.nome = nome;
+            this.sobrenome = sobrenome;
+            this.anoNascimento = anoNascimento;
+            idade = Idade();
+        }
+
+        public Pessoa(string nome, string sobrenome)
+        {
+            this.nome = nome;
+            this.sobrenome = sobrenome;
+            this.anoNascimento = 2002;
+            idade = Idade();
+        }
+
+        private int Idade()
+        {
+            return 2020 - anoNascimento;
+        }
     }
 }
