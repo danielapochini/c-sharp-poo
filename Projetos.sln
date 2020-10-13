@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_TermoThis", "POO_TermoT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_TipoDelegate", "POO_TipoDelegate\POO_TipoDelegate.csproj", "{A14ABB85-708D-4CF9-9C4E-B9E4FB79D2C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_MetodoConstrutor", "POO_MetodoConstrutor\POO_MetodoConstrutor.csproj", "{693CCBCF-A5E6-433C-B7F3-59316F39F4B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{A14ABB85-708D-4CF9-9C4E-B9E4FB79D2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A14ABB85-708D-4CF9-9C4E-B9E4FB79D2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A14ABB85-708D-4CF9-9C4E-B9E4FB79D2C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693CCBCF-A5E6-433C-B7F3-59316F39F4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693CCBCF-A5E6-433C-B7F3-59316F39F4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693CCBCF-A5E6-433C-B7F3-59316F39F4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693CCBCF-A5E6-433C-B7F3-59316F39F4B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +150,7 @@ Global
 		{85F4CCD9-6056-41EB-9346-66B393760A73} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 		{8FD070E2-BC43-4BE2-954E-E97C3C2699AE} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 		{A14ABB85-708D-4CF9-9C4E-B9E4FB79D2C7} = {4642993F-6259-486D-A31D-24270BEA8FF7}
+		{693CCBCF-A5E6-433C-B7F3-59316F39F4B8} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACFE1B72-35E7-434D-A313-F31852C58DB7}
