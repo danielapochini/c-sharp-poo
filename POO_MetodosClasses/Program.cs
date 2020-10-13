@@ -44,6 +44,20 @@ namespace POO_MetodosClasses
             */
             #endregion
 
+            #region Sobrecarga de métodos
+            /*
+            m.Cumprimentar();
+            m.Cumprimentar("Daniela");
+            m.Cumprimentar("Daniela", 18);
+
+            bool res1 = m.Comparar(100, 50 * 2);
+            bool res2 = m.Comparar("Daniela", "daniela");
+
+            Console.WriteLine(res1);
+            Console.WriteLine(res2);
+            */
+            #endregion
+
         }
     }
 }
