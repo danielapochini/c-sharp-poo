@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POO_ClassesEstaticas
 {
-    partial class Pessoa
+    partial class PessoaAtributos
     {
         public void Apresentar()
         {

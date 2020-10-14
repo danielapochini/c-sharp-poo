@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POO_ClassesEstaticas
 {
-    partial class Pessoa
+    partial class PessoaAtributos
     {
         // membros estaticos são acessados diretamente pela refêrencia da classe 
         public static int maioridade = 18;

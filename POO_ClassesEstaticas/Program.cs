@@ -20,15 +20,15 @@ namespace POO_ClassesEstaticas
 
             #region Membros estáticos
 
-            Pessoa.maioridade = 21;
+            PessoaAtributos.maioridade = 21;
 
-            Pessoa p = new Pessoa();
+            PessoaAtributos p = new PessoaAtributos();
             p.nome = "Daniela";
-            p.idade = Pessoa.CalcularIdade(1993);
+            p.idade = PessoaAtributos.CalcularIdade(1993);
 
             Console.WriteLine(p.nome);
             Console.WriteLine(p.idade);
-            Console.WriteLine(Pessoa.maioridade);
+            Console.WriteLine(PessoaAtributos.maioridade);
             #endregion
         }
     }
