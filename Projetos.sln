@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Propriedades", "POO_Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Encapsulamento", "POO_Encapsulamento\POO_Encapsulamento.csproj", "{F050D1F0-D13F-45F1-8305-369D9117FED1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Heranca", "POO_Heranca\POO_Heranca.csproj", "{2B6B58D6-F47F-42A6-A3B3-0A644AA8C713}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +147,10 @@ Global
 		{F050D1F0-D13F-45F1-8305-369D9117FED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F050D1F0-D13F-45F1-8305-369D9117FED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F050D1F0-D13F-45F1-8305-369D9117FED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6B58D6-F47F-42A6-A3B3-0A644AA8C713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6B58D6-F47F-42A6-A3B3-0A644AA8C713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6B58D6-F47F-42A6-A3B3-0A644AA8C713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6B58D6-F47F-42A6-A3B3-0A644AA8C713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,6 +178,7 @@ Global
 		{3E1CF7C5-4706-4A73-ADD5-29F34571690B} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 		{6B8BDC4D-1213-4C8B-AD8F-4B8D30A64C3D} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 		{F050D1F0-D13F-45F1-8305-369D9117FED1} = {4642993F-6259-486D-A31D-24270BEA8FF7}
+		{2B6B58D6-F47F-42A6-A3B3-0A644AA8C713} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACFE1B72-35E7-434D-A313-F31852C58DB7}
