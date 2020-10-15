@@ -4,7 +4,9 @@ using System.Text;
 
 namespace POO_Heranca
 {
-    class Bicicleta : Veiculo
+    // sealed define que esta classe não pode ser herdada, apenas serve para instânciar objetos
+    // != de classe abstrata que serve apenas para ser herdada e não pode instânciar objetos
+    sealed class Bicicleta : Veiculo
     { 
         public void Pedalar()
         {
