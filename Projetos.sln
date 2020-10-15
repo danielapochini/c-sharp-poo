@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Heranca", "POO_Heranca\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Modificadores", "POO_Modificadores\POO_Modificadores.csproj", "{F14F35FD-0748-40DF-BE4E-777D6C343F2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Polimorfismo", "POO_Polimorfismo\POO_Polimorfismo.csproj", "{CC5D9681-DF0D-475A-BC9E-B7C2DA711F90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -157,6 +159,10 @@ Global
 		{F14F35FD-0748-40DF-BE4E-777D6C343F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F14F35FD-0748-40DF-BE4E-777D6C343F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F14F35FD-0748-40DF-BE4E-777D6C343F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5D9681-DF0D-475A-BC9E-B7C2DA711F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5D9681-DF0D-475A-BC9E-B7C2DA711F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5D9681-DF0D-475A-BC9E-B7C2DA711F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5D9681-DF0D-475A-BC9E-B7C2DA711F90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -186,6 +192,7 @@ Global
 		{F050D1F0-D13F-45F1-8305-369D9117FED1} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 		{2B6B58D6-F47F-42A6-A3B3-0A644AA8C713} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 		{F14F35FD-0748-40DF-BE4E-777D6C343F2B} = {4642993F-6259-486D-A31D-24270BEA8FF7}
+		{CC5D9681-DF0D-475A-BC9E-B7C2DA711F90} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACFE1B72-35E7-434D-A313-F31852C58DB7}
