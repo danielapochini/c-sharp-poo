@@ -4,7 +4,9 @@ using System.Text;
 
 namespace POO_Heranca
 {
-    class Veiculo
+    // definindo que a classe Veiculo é do tipo abstrata
+    // serve somente como base para as outras classes
+    abstract class Veiculo
     {
         // herança permite que uma classe herde metodos, atributos, comportamentos de uma outra classe
         // facilitando na manutenção e reaproveitamento de código
@@ -12,14 +14,10 @@ namespace POO_Heranca
         public string Cor { get; set; }
         public string Marca { get; set; }
 
-        public void Acelerar()
-        {
-            Console.WriteLine("Acelerou!");
-        }
+        // o metódo abstrato não possui implementação, precisa ser implementado em cada classe que irá herdá-lo
+        // cada uma definirá seu próprio comportamento
+        public abstract void Acelerar();
 
-        public void Parar()
-        {
-            Console.WriteLine("Parou!");
-        }
+        public abstract void Parar();
     }
 }
