@@ -49,15 +49,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ClassesEstaticas", "POO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Propriedades", "POO_Propriedades\POO_Propriedades.csproj", "{6B8BDC4D-1213-4C8B-AD8F-4B8D30A64C3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Encapsulamento", "POO_Encapsulamento\POO_Encapsulamento.csproj", "{F050D1F0-D13F-45F1-8305-369D9117FED1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Encapsulamento", "POO_Encapsulamento\POO_Encapsulamento.csproj", "{F050D1F0-D13F-45F1-8305-369D9117FED1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Heranca", "POO_Heranca\POO_Heranca.csproj", "{2B6B58D6-F47F-42A6-A3B3-0A644AA8C713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Heranca", "POO_Heranca\POO_Heranca.csproj", "{2B6B58D6-F47F-42A6-A3B3-0A644AA8C713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Modificadores", "POO_Modificadores\POO_Modificadores.csproj", "{F14F35FD-0748-40DF-BE4E-777D6C343F2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Modificadores", "POO_Modificadores\POO_Modificadores.csproj", "{F14F35FD-0748-40DF-BE4E-777D6C343F2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Polimorfismo", "POO_Polimorfismo\POO_Polimorfismo.csproj", "{CC5D9681-DF0D-475A-BC9E-B7C2DA711F90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Polimorfismo", "POO_Polimorfismo\POO_Polimorfismo.csproj", "{CC5D9681-DF0D-475A-BC9E-B7C2DA711F90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ExercicioMediaGeral", "POO_ExercicioMediaGeral\POO_ExercicioMediaGeral.csproj", "{CCCCAD26-CA8C-4CFA-B1D4-EA9CAC5DD30D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ExercicioMediaGeral", "POO_ExercicioMediaGeral\POO_ExercicioMediaGeral.csproj", "{CCCCAD26-CA8C-4CFA-B1D4-EA9CAC5DD30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Recursividade", "POO_Recursividade\POO_Recursividade.csproj", "{70CA7A28-5D4A-4B2F-B291-5611BA6B1B31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -169,6 +171,10 @@ Global
 		{CCCCAD26-CA8C-4CFA-B1D4-EA9CAC5DD30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCCCAD26-CA8C-4CFA-B1D4-EA9CAC5DD30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCCCAD26-CA8C-4CFA-B1D4-EA9CAC5DD30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CA7A28-5D4A-4B2F-B291-5611BA6B1B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CA7A28-5D4A-4B2F-B291-5611BA6B1B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CA7A28-5D4A-4B2F-B291-5611BA6B1B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CA7A28-5D4A-4B2F-B291-5611BA6B1B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -200,6 +206,7 @@ Global
 		{F14F35FD-0748-40DF-BE4E-777D6C343F2B} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 		{CC5D9681-DF0D-475A-BC9E-B7C2DA711F90} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 		{CCCCAD26-CA8C-4CFA-B1D4-EA9CAC5DD30D} = {4642993F-6259-486D-A31D-24270BEA8FF7}
+		{70CA7A28-5D4A-4B2F-B291-5611BA6B1B31} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACFE1B72-35E7-434D-A313-F31852C58DB7}
