@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Recursividade", "POO_Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_MetodoMain", "POO_MetodoMain\POO_MetodoMain.csproj", "{70AB82B8-1957-42CE-87A6-39974FAAC842}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_FatorialRecursivo", "POO_FatorialRecursivo\POO_FatorialRecursivo.csproj", "{3C13A28E-F8B8-4CF3-9914-B5C1BD934FFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,10 @@ Global
 		{70AB82B8-1957-42CE-87A6-39974FAAC842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70AB82B8-1957-42CE-87A6-39974FAAC842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70AB82B8-1957-42CE-87A6-39974FAAC842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C13A28E-F8B8-4CF3-9914-B5C1BD934FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C13A28E-F8B8-4CF3-9914-B5C1BD934FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C13A28E-F8B8-4CF3-9914-B5C1BD934FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C13A28E-F8B8-4CF3-9914-B5C1BD934FFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -214,6 +220,7 @@ Global
 		{CCCCAD26-CA8C-4CFA-B1D4-EA9CAC5DD30D} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 		{70CA7A28-5D4A-4B2F-B291-5611BA6B1B31} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 		{70AB82B8-1957-42CE-87A6-39974FAAC842} = {4642993F-6259-486D-A31D-24270BEA8FF7}
+		{3C13A28E-F8B8-4CF3-9914-B5C1BD934FFC} = {4642993F-6259-486D-A31D-24270BEA8FF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACFE1B72-35E7-434D-A313-F31852C58DB7}
